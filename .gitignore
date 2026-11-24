@@ -1,0 +1,50 @@
+# Priklausomybės
+node_modules/
+
+# Aplinkos kintamieji ir paslaptys (niekada į repo)
+**/.env
+**/.env.*
+!**/.env.template
+!**/.env.test.template
+*.pem
+
+# Medusa
+.medusa/
+**/dist/
+**/build/
+apps/backend/uploads/
+apps/backend/static/
+
+# Next.js
+**/.next/
+**/out/
+.vercel/
+next-env.d.ts
+
+# Turbo
+.turbo/
+
+# Testai ir įrankiai
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# OS ir redaktoriai
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# DI asistento failai: tik lokaliai
+.claude/
+CLAUDE.md
+AGENTS.md
+/PRADZIA.md
+# Asmeniniai dokumentai (literatūrinei daliai): tik lokaliai
+/docs/*
+# Finalizuojant darbą atkomentuoti, kad būtų įkeltas DI naudojimo žurnalas:
+# !/docs/DI_NAUDOJIMAS.md
